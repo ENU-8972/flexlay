@@ -1,27 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
-<head> 
- <meta charset="UTF-8">
- <title>Flexlay layout with image background</title>
- <!--<script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>    
- background-image: <a-scene>
-    <a-sky src="R0011484_20240123183829.JPG"</a-sky>
-</a-scene>; -->
- <link rel="stylesheet" href="flexbox.css">
+<html>
+<head>
+  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  <style>
+    /* CSS styles for UI elements */
+    .menu {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 10px;
+      border-radius: 5px;
+      pointer-events: auto; /* Ensure menu is clickable */
+    }
+  </style>
 </head>
 <body>
- <header>Header</header>
- <div class="container">
- <main>
- <h1>Main Content</h1>
- </main>
- <nav>
- <h4>Navigation</h4>
- </nav>
- <aside>
- <h4>Aside</h4>
- </aside>
- </div>
- <footer>Footer</footer>
+  <a-scene>
+    <!-- A-Frame scene content -->
+    <a-box position="0 1 -3" color="red"></a-box>
+    <a-sky color="#ECECEC"></a-sky>
+    <!-- UI elements -->
+    <div class="menu">
+      <h2>Menu</h2>
+      <ul>
+        <li><a href="#">Option 1</a></li>
+        <li><a href="#">Option 2</a></li>
+        <li><a href="#">Option 3</a></li>
+      </ul>
+    </div>
+  </a-scene>
 </body>
 </html>
