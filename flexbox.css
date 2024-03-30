@@ -19,9 +19,6 @@ footer {
  background-color: #F2EDED;
  color: #1C1C1C;
 }
-nav { background: #EDE6E6; }
-main { background: #D8DDDE; }
-aside { background: #EDE6E6; }
 body {
  min-height: 100vh;
  display: flex;
@@ -34,13 +31,16 @@ body {
 main {
  flex: 1;
  padding: 0 20px;
+ background: #D8DDDE;
 }
 nav {
  flex: 0 0 180px;
  padding: 0 10px;
  order: -1;
+ background: #EDE6E6;
 }
 aside {
  flex: 0 0 130px;
  padding: 0 10px;
+ background: #EDE6E6;
 }
