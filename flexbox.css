@@ -2,10 +2,11 @@ body {
  margin: 0;
  padding: 0;
  max-width: inherit;
- background-image: url('Coyotes.jpg');
+ background-color: #F2EDED;
+ /*background-image: url('Coyotes.jpg');
  background-repeat: no-repeat;
  background-attachment: fixed;
- background-size: cover;
+ background-size: cover;*/
 }
 
 header{
